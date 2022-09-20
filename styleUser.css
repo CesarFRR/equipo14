@@ -1,0 +1,103 @@
+:root{
+    --primary: #4773f7;
+    --light: #fafafd;
+    --gray: #68696c;  
+}
+
+body{
+    overflow: hidden;
+    font-weight: 300;
+    color: var(--primary);
+}
+
+.bg-primary{
+    background-color: var(--gray) !important;
+}
+
+#sidebar-container{
+    min-height: 100vh;
+}
+
+#sidebar-container .logo{
+    padding: .875rem 1.25rem;
+}
+
+#sidebar-container .menu{
+    width: 18rem;
+}
+
+.imgProfile{
+    max-height: 15vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.logo{
+    text-align: center;
+}
+
+
+h5{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color: #68696c;
+    text-align: left;
+    padding-left: 5%;
+    display: block;
+}
+
+h2{
+    font-family: 'Anton', sans-serif;
+    color: #68696c;
+    text-align: center;
+    padding-left: 40%;
+    display: block;
+}
+
+#exit{
+    display: block;
+}
+
+.info{
+    padding-top: 5vh;
+}
+
+.info2{
+    padding-top: 3vh;
+}
+
+#content{
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+    
+}
+
+.table{
+    background-color: rgb(225, 235, 244);
+}
+
+.h2Table{
+    display: block;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 3em;
+    padding-left: 1.5em;
+    padding-bottom: 1em;
+}
+
+#crearEstudiante{
+    text-align: center;
+    margin-left: 45vh;
+    width: 50vh;
+    height: 40vh;
+    
+}
