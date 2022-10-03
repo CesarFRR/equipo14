@@ -1,0 +1,399 @@
+{% extends "./layout.html" %}
+
+{% block title%} Estudiante {% endblock %}
+
+{% block bienvenida %} Bienvenido Estudiante {% endblock %}
+
+{% block nombre%} Nombre estudiante {% endblock %}
+{% block rol%} Estudiante (Rol) {% endblock %}
+{% block email%} correo {% endblock %}
+{% block id %} ID {% endblock %}
+
+
+{% block body%} 
+
+
+<div id="content">
+
+    <div class="container text-center">
+
+      <div class="row">
+        <div class="col-6 col-md-2"></div>
+
+
+
+        <div class="col-6 col-md-8">
+          <table class="table">
+            <h2 class="h2Table">Estado actual de tus materias</h2>
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Materias</th>
+                
+                <th scope="col">Calificación final del curso</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Cálculo</td> 
+                <td>3.5</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Fundamentos de programación</td>                    
+                <td>4.5</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Inglés</td>
+                <td>3.8</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Habilidades personales</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <th scope="row">%</th>
+                <td>Promedio del semestre</td>                    
+                <td>%%</td>
+            </tbody>
+          </table>
+        </div>
+
+
+
+
+        <div class="col-6 col-md-2"></div>
+      </div>
+
+
+     
+
+      <!-- Cálculo--------------------------------------------------------  -->
+      <div class="row">
+        <div class="col-6 col-md-2"></div>
+
+
+
+        <div class="col-6 col-md-8">
+          <table class="table">
+            <h2 class="h2Table">Cálculo</h2>
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Actividades</th>
+                <th scope="col">Detalle</th>
+                <th scope="col">Calificación</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Parcial</td> 
+                <td>Parcial</td>
+                <td>3.5</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Parcial</td> 
+                <td>Parcial</td>        
+                <td>--</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Parcial</td> 
+                <td>Parcial</td>                   
+                <td>4.5</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Parcial</td>
+                <td>Parcial</td>
+                <td>3.8</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Parcial</td>
+                <td>Parcial</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Parcial</td>
+                <td>Parcial</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>Parcial</td>
+                <td>Parcial</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>Parcial</td>
+                <td>Parcial</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <th scope="row">%</th>
+                <td>Promedio de la materia</td>                    
+                <td>%%</td>
+            </tbody>
+          </table>
+        </div>
+
+
+        <!-- Fundamentos--------------------------------------- -->
+        <div class="row">
+          <div class="col-6 col-md-2"></div>
+
+
+
+          <div class="col-6 col-md-8">
+            <table class="table">
+              <h2 class="h2Table">Fundamentos de programación</h2>
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Actividades</th>
+                  <th scope="col">Detalle</th>
+                  <th scope="col">Calificación</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Parcial</td> 
+                  <td>Parcial</td>
+                  <td>3.5</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Parcial</td> 
+                  <td>Parcial</td>        
+                  <td>--</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Parcial</td> 
+                  <td>Parcial</td>                   
+                  <td>4.5</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Parcial</td>
+                  <td>Parcial</td>
+                  <td>3.8</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Parcial</td>
+                  <td>Parcial</td>
+                  <td>--</td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>Parcial</td>
+                  <td>Parcial</td>
+                  <td>--</td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td>Parcial</td>
+                  <td>Parcial</td>
+                  <td>--</td>
+                </tr>
+                <tr>
+                  <th scope="row">8</th>
+                  <td>Parcial</td>
+                  <td>Parcial</td>
+                  <td>--</td>
+                </tr>
+                <tr>
+                  <th scope="row">%</th>
+                  <td>Promedio de la materia</td>                    
+                  <td>%%</td>
+              </tbody>
+            </table>
+          </div>
+
+
+
+          <!-- Inglés--------------------------------------- -->
+          <div class="row">
+            <div class="col-6 col-md-2"></div>
+
+
+
+            <div class="col-6 col-md-8">
+              <table class="table">
+                <h2 class="h2Table">Inglés</h2>
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Actividades</th>
+                    <th scope="col">Detalle</th>
+                    <th scope="col">Calificación</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Parcial</td> 
+                    <td>Parcial</td>
+                    <td>3.5</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Parcial</td> 
+                    <td>Parcial</td>        
+                    <td>--</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Parcial</td> 
+                    <td>Parcial</td>                   
+                    <td>4.5</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Parcial</td>
+                    <td>Parcial</td>
+                    <td>3.8</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Parcial</td>
+                    <td>Parcial</td>
+                    <td>--</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Parcial</td>
+                    <td>Parcial</td>
+                    <td>--</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Parcial</td>
+                    <td>Parcial</td>
+                    <td>--</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Parcial</td>
+                    <td>Parcial</td>
+                    <td>--</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">%</th>
+                    <td>Promedio de la materia</td>                    
+                    <td>%%</td>
+                </tbody>
+              </table>
+            </div>
+            
+
+
+            <!-- Habilidades--------------------------------------- -->
+
+            <div class="row">
+              <div class="col-6 col-md-2"></div>
+
+
+
+              <div class="col-6 col-md-8">
+                <table class="table">
+                  <h2 class="h2Table">Habilidades personales</h2>
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Actividades</th>
+                      <th scope="col">Detalle</th>
+                      <th scope="col">Calificación</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Parcial</td> 
+                      <td>Parcial</td>
+                      <td>3.5</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Parcial</td> 
+                      <td>Parcial</td>        
+                      <td>--</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Parcial</td> 
+                      <td>Parcial</td>                   
+                      <td>4.5</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Parcial</td>
+                      <td>Parcial</td>
+                      <td>3.8</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>Parcial</td>
+                      <td>Parcial</td>
+                      <td>--</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>Parcial</td>
+                      <td>Parcial</td>
+                      <td>--</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">7</th>
+                      <td>Parcial</td>
+                      <td>Parcial</td>
+                      <td>--</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">8</th>
+                      <td>Parcial</td>
+                      <td>Parcial</td>
+                      <td>--</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">%</th>
+                      <td>Promedio de la materia</td>                    
+                      <td>%%</td>
+                  </tbody>
+                </table>
+              </div>
+
+
+
+        <div class="col-6 col-md-2"></div>
+      </div>
+
+    </div>
+
+
+    
+    
+
+
+    
+
+
+
+    
+
+  </div>
+
+
+
+
+{% endblock %}

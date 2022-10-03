@@ -1,0 +1,258 @@
+{% extends "./layout.html" %}
+
+{% block title%} Profesor {% endblock %}
+
+{% block bienvenida %} Bienvenido Profesor {% endblock %}
+
+{% block nombre%} Nombre Profesor {% endblock %}
+{% block rol%} Profesor (Rol) {% endblock %}
+{% block email%} correo {% endblock %}
+{% block id %} ID {% endblock %}
+
+
+{% block body%}
+
+<div id="content">
+
+
+
+    <div class="container text-center">
+
+
+      <h2 class="h2Table">Creación de actividades</h2>
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                  <th scope="col">Calculo</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody class="table-group-divider">
+                <tr>
+                  <th scope="row">1</th>
+                  <td></td>
+                  <td>Parcial</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td></td>
+                  <td>Parcial</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td></td>
+                  <td>Parcial</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td></td>
+                  <td>Parcial</td>
+                  <td></td>
+                </tr>
+                
+              </tbody>
+            </table>
+            <input class="form-control form-control-sm" type="text" placeholder="Nombre de nueva actividad" aria-label=".form-control-sm example">
+            <button type="button" class="btn btn-success">Añadir</button>
+          </div>
+
+
+
+          <div class="col">
+            <table class="table">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col">Fundamentos de programación</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody class="table-group-divider">
+          <tr>
+            <th scope="row">1</th>
+            <td></td>
+            <td>Parcial</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td></td>
+            <td>Parcial</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td></td>
+            <td>Parcial</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td></td>
+            <td>Parcial</td>
+            <td></td>
+          </tr>
+          
+        </tbody>
+      </table>
+      <input class="form-control form-control-sm" type="text" placeholder="Nombre de nueva actividad" aria-label=".form-control-sm example">
+      <button type="button" class="btn btn-success">Añadir</button>
+        </div>
+
+
+        </div>
+      </div>
+
+
+
+      
+
+
+
+
+
+
+
+
+
+      <h2 class="h2Table">Calificación de actividades</h2>
+      <div class="row">
+        <div class="col">
+          <table class="table">
+            <h2 class="h2Table">Cálculo</h2>
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col">Actividades</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <thead>
+              <tr>
+                <th scope="col">Alumno</th>
+                <th scope="col">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Elija un alumno</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+
+
+                </th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+              </tr>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Parcial</td>
+                <td>
+                  <input class="form-control form-control-sm" type="text" placeholder="Digite la nota" aria-label=".form-control-sm example"></td>
+                <td><input class="form-control form-control-sm" type="text" placeholder="Retroalimentación" aria-label=".form-control-sm example"></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Parcial</td>
+                <td><input class="form-control form-control-sm" type="text" placeholder="Digite la nota" aria-label=".form-control-sm example"></td>
+                <td><input class="form-control form-control-sm" type="text" placeholder="Retroalimentación" aria-label=".form-control-sm example"></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Parcial</td>
+                <td><input class="form-control form-control-sm" type="text" placeholder="Digite la nota" aria-label=".form-control-sm example"></td>
+                <td><input class="form-control form-control-sm" type="text" placeholder="Retroalimentación" aria-label=".form-control-sm example"></td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Parcial</td>
+                <td><input class="form-control form-control-sm" type="text" placeholder="Digite la nota" aria-label=".form-control-sm example"></td>
+                <td><input class="form-control form-control-sm" type="text" placeholder="Retroalimentación" aria-label=".form-control-sm example"></td>
+              </tr>
+              
+            </tbody>
+          </table>
+          <button type="button" class="btn btn-success">Enviar</button>
+        </div>
+
+
+
+
+
+        <div class="col">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <table class="table">
+                  <h2 class="h2Table">Fundamentos de programación</h2>
+                  <thead>
+                    <tr>
+                      <th scope="col"></th>
+                      <th scope="col"></th>
+                      <th scope="col">Actividades</th>
+                      <th scope="col"></th>
+                    </tr>
+                  </thead>
+                  <thead>
+                    <tr>
+                      <th scope="col">Alumno</th>
+                      <th scope="col">
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Elija un alumno</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+
+                      </th>
+                      <th scope="col"></th>
+                      <th scope="col"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Parcial</td>
+                      <td><input class="form-control form-control-sm" type="text" placeholder="Digite la nota" aria-label=".form-control-sm example"></td>
+                      <td><input class="form-control form-control-sm" type="text" placeholder="Retroalimentación" aria-label=".form-control-sm example"></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Parcial</td>
+                      <td><input class="form-control form-control-sm" type="text" placeholder="Digite la nota" aria-label=".form-control-sm example"></td>
+                      <td><input class="form-control form-control-sm" type="text" placeholder="Retroalimentación" aria-label=".form-control-sm example"></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Parcial</td>
+                      <td><input class="form-control form-control-sm" type="text" placeholder="Digite la nota" aria-label=".form-control-sm example"></td>
+                      <td><input class="form-control form-control-sm" type="text" placeholder="Retroalimentación" aria-label=".form-control-sm example"></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>Parcial</td>
+                      <td><input class="form-control form-control-sm" type="text" placeholder="Digite la nota" aria-label=".form-control-sm example"></td>
+                      <td><input class="form-control form-control-sm" type="text" placeholder="Retroalimentación" aria-label=".form-control-sm example"></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <button type="button" class="btn btn-success">Enviar</button>
+              </div>
+        </div>
+      </div>
+      
+    </div>
+
+
+{% endblock %} <!-- Bloque del body reemplazable----------------------  -->
